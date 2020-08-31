@@ -120,11 +120,15 @@
 
 
 @media only screen and (max-width: 1024px){
+
 	.logo_j{
 		margin-left:4vw !important;
 	}
 	.nav_j{
 		margin-right:4vw !important;
+	}
+	.nav_j .nav_menu_j {
+	    padding: 0 10px;
 	}
 	.btn_icon_j{
 		margin:0 !important;
