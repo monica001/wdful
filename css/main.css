@@ -1,0 +1,584 @@
+@charset "utf-8";
+
+.bgimg1_title_box_j{
+	padding:8rem;
+	float:right;
+}
+.bgimg1_title_j{
+	background:#84A000;
+	padding:2rem 3rem;
+	color:#fff;
+	font-size:22px;
+	letter-spacing:0.5em;
+}
+
+@media only screen and (max-width: 600px){
+	.bgimg1_title_box_j{
+		padding:0;
+		clear:both;
+		position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+		margin: 0 -40px 0 30px;
+	}
+
+}
+
+@media only screen and (max-width: 380px){
+	.bgimg1_title_j{
+		padding:1rem 1.5rem;
+	}
+}
+
+
+
+
+/* ------------------------------------------------------
+首頁
+--------------------------------------------------------- */
+.main_bg_j{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eb0095+0,c700bc+57,c700bc+57,b200d2+99 */
+	background: #eb0095; /* Old browsers */
+	background: -moz-linear-gradient(top, #eb0095 0%, #c700bc 57%, #b200d2 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eb0095 0%,#c700bc 57%,#b200d2 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eb0095 0%,#c700bc 57%,#b200d2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb0095', endColorstr='#b200d2',GradientType=0 ); /* IE6-9 */
+}
+.main_bg_pic_j{
+	background-image: url(../images/home_bg.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	min-height: 580px;
+	margin-bottom: -50px;
+}
+.main_btn_bg{
+	background: url("../images/homemain_bg.png") no-repeat center;
+	color: #ffbb5b;
+	font-size:35px;
+	font-weight: 700;
+	text-align: center;
+	background-size: 90%;
+	line-height:300px;
+}
+.main_btn_bg:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1240px) {
+	.main_bg_pic_j{
+		min-height: 50vw;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.main_bg_pic_j{
+		min-height: 100vw;
+	}
+	.main_btn_bg{
+		margin: 5vw 0 0 0;
+		line-height: 33vw;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	.main_bg_pic_j{
+		padding-bottom: 220px;
+		background-size: 150% auto;
+	}
+	.main_btn_bg{
+		margin: 5vw 0 0 0;
+		line-height: 68vw;
+	}
+}
+
+/* ------------------------------------------------------
+次頁共用
+--------------------------------------------------------- */
+.sub_main_j{
+	margin-top: 132px;
+	padding:64px 0;
+}
+.submain_bg{
+	background: url(../images/submain_bg.jpg) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		min-height:100%;
+}
+.title_j,
+.subtitle_j{
+	font-size: 22px;
+	font-weight: 700;
+	color: #720986;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.subtitle_j{
+	font-size: 26px;
+}
+.padding_lr_j{
+	padding-left: 15px
+}
+.top_j{
+	position: fixed;
+	right:15px;
+	bottom: 15px;
+	background: #720986;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+.top_j:hover{
+	background: #d123f3;
+}
+
+
+@media only screen and (max-width: 980px) {
+	.sub_main_j{
+		padding-top:0;
+		margin-left:15px;
+		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.sub_main_j{
+		margin-top:70px;
+	}
+}
+/* ------------------------------------------------------
+關於我們
+--------------------------------------------------------- */
+.sub_nav{
+	font-size: 20px;
+	font-weight: 700;
+}
+.sub_nav li{
+	border-top:1px solid #ccc;
+	padding: 15px 0;
+}
+.sub_nav li a:hover{
+	color: #720986;
+}
+.webedit_j{
+	margin-left:60px;
+}
+.webedit_j img{
+	width: 100%;
+}
+
+.about_title_j{
+	font-size: 22px;
+	font-weight: 700;
+	color: #720986;
+	line-height: 42px;
+	margin:50px 0 15px;
+}
+.about_txt_j{
+	font-size: 18px;
+	line-height: 32px;
+	color: #555;
+}
+.about_txt_j img{
+	max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	.webedit_j {
+		margin: 0;
+	}
+	.sub_nav li{
+		text-align: center;
+	}
+}
+
+/* ------------------------------------------------------
+聯絡我們
+--------------------------------------------------------- */
+.right_line_j{
+	border-right: 2px dashed #999;
+	padding-right: 30px;
+}
+.contact_info_j{
+	padding-left: 30px;
+}
+.contact_input_j{
+	margin-top:20px; 
+}
+.contact_input_j input,
+.contact_input_j textarea{
+	width: 100%;
+	border: 1px solid #333;
+	margin: 0 0 15px 0;
+	padding: 3px 10px;
+	line-height: 1.8em;
+}
+
+@media only screen and (max-width: 600px) {
+	.right_line_j{
+		padding-right: 0;
+		border: none;
+		margin-top: 30px;
+	}
+	.contact_info_j{
+		padding-left: 0;
+		margin-top:30px;
+	}
+}
+
+
+/* ------------------------------------------------------
+共用按鈕
+--------------------------------------------------------- */
+.btn_j{
+	background: #8B00A5;
+	color: #fff;
+	text-align: center;
+	padding: 3px;
+	line-height: 2em;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 15px;
+	
+	transition:all 1s;
+}
+.btn_j:hover{
+	background: #F9BA30;
+}
+.w3-btn-padding .w3-col{
+	padding: 0 15px 0 0;
+}
+.w3-btn-padding .w3-col:last-child{
+	padding: 0 0 0 15px;
+}
+.btn_rwd_j{
+	display: inline-block;
+	padding: 3px 15px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.right_line_j{
+		padding-right: 0;
+		border: none;
+		margin-top: 30px;
+	}
+	.contact_info_j{
+		padding-left: 0;
+	}
+	.w3-btn-padding .w3-col{
+		padding: 0;
+	}
+	.w3-btn-padding .w3-col:last-child{
+		padding: 0;
+	}
+	.btn_rwd_j{
+		display: block;
+		float: inherit;
+		margin: 15px 15px 0;
+	}
+}
+
+
+/* ------------------------------------------------------
+最新消息
+--------------------------------------------------------- */
+
+.fh5co-grid-work {
+	position:relative;
+	margin:0 15px 40px;
+	font-family: '微軟正黑體';
+}
+.fh5co-grid-work .work-holder {
+	position: relative;
+	width:100%;
+	height:220px;
+}
+.fh5co-grid-work .work-holder img {
+	width:100%;
+	height:100%;
+}
+.fh5co-grid-work .work-holder .inner-overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #8A00A494;
+	opacity: 0;
+}
+
+.fh5co-grid-work .work-holder .inner-overlay:after {
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 100%;
+	content: 'more';
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+	position: absolute;
+}
+.fh5co-grid-work .desc h3 {
+	font-size:20px;
+	font-weight:700;
+	line-height:1.2em;
+	height:1.2em;
+	overflow:hidden;
+	color: #8A00A4;
+	overflow: hidden;
+}
+.fh5co-grid-work .desc h3 a:hover{
+	color: #ae33c5;
+}
+.fh5co-grid-work .desc span {
+    color: #666;
+    font-size: 16px;
+    display: inline-block;
+	overflow: hidden;
+	line-height: 1em;
+	height: 2em;
+}
+.fh5co-grid-work .work-holder:hover .inner-overlay, .fh5co-grid-work .work-holder:focus .inner-overlay {
+	opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+	.fh5co-grid-work .work-holder {
+		height:21vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.fh5co-grid-work .work-holder {
+		height:auto;
+	}
+}
+
+.news_detail_j .webedit_j{
+	border: 1px solid #999;
+	padding: 15px;
+	margin: 15px;
+}
+
+/* ------------------------------------------------------
+電影時刻表
+--------------------------------------------------------- */
+.timetable_mainbg_j{
+	background: url("../images/timetable_bg.jpg") no-repeat center center;
+	background-size:cover;
+	min-height: 600px;
+	position: relative;
+	margin-top:130px;
+}
+
+.timetable_title_j{
+	position: absolute;
+	top:80px;
+	letter-spacing: 0.5em;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	margin-left: 4vw;
+}
+.timetable_title_j .en{
+	letter-spacing: 0.1em;
+	margin-top: 1.2em;
+}
+
+.timetable_table_j tr td{
+	border: 1px solid #fff;
+	font-size: 22px;
+	line-height: 60px;
+	padding: 0 30px;
+	text-align: center;
+	color: #fff;
+	min-width: 250px;
+	font-weight: 700;
+}
+.timetable_table_j tr td:hover{
+	background: #ffffffbf;
+	color: #333;
+}
+
+@media only screen and (max-width: 980px) {
+	.timetable_mainbg_j{
+		margin-top:62px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.timetable_title_j{
+		position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%);
+		margin-top: 30px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.timetable_title_j .en{
+		letter-spacing:inherit;
+		margin-top: 0.1em;
+	}
+	.timetable_table_j{
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.timetable_title_j{
+		position: relative;
+		top: 30px;
+	}
+	
+}
+
+
+/* 上映中 */
+.timetable_r_j .box_j{
+	border-bottom: 2px dotted #ccc;
+	margin-bottom: 25px;
+	padding: 15px 15px 30px 15px;
+}
+.timetable_r_j .txt_j{
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.timetable_r_j .title_j{
+	color: #222;
+	margin-bottom: 15px;
+	overflow: hidden;
+    height: 64px;
+}
+.timetable_r_j .title_j span{
+	display: block;
+	margin-left: 3em;
+	font-style:italic;
+}
+.timetable_r_j .timeheader_j{
+	background: #eee;
+	border-top:1px dashed #999;
+	font-size: 18px;
+	padding: 15px 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.timetable_r_j .timetable_r_info_j{
+	border: 1px solid #ccc;
+	padding: 15px;
+}
+
+.timetable_r_j .timepic_j{
+	background: #8A00A4;
+}
+.timetable_r_j .timepic_j img{
+	width:100%;
+	height: 300px;
+}
+.timetable_r_j .timepic_j a:hover img{
+	opacity: .5;
+}
+
+.timetable_r_j .timebox_j{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 12px 20px 0 25px;
+}
+.timetable_r_j .timetitle_j{
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+.timetable_r_j .time_j{
+	border-top:1px solid #aaa;
+	padding: 3px 8px;
+}
+.timetable_r_j .time_j span{
+	margin-left:2px;
+	font-size: 15px;
+	padding: 0 5px;
+}
+
+
+@media only screen and (max-width: 980px) {
+	.timetable_r_j .timebox_j{
+		padding: 12px 10px 0 15px;
+	}
+	.timetable_r_j .time_j{
+		padding: 3px 0;
+	}
+	.timetable_r_j .timepic_j img{
+		width:100%;
+		height: 30vw;
+	}	
+}
+@media only screen and (max-width: 773px) {
+	.timetable_r_j .timebox_j{
+		padding: 12px 0 0 1vw;
+	}
+	.timetable_r_j .timepic_j img{
+		height:28vw;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.timetable_r_j .timebox_j{
+		font-size: 16px;
+	}	
+	.timetable_r_j .timepic_j img{
+		height:26vw;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.timetable_r_j .timepic_j img{
+		height: auto;
+	}	
+}
+
+
+/* 內頁 */
+
+.timetable_detail_j .timepic_j img{
+	height: auto;
+}
+.timetable_detail_j .timebox_j{
+	padding: 0 3vw;
+}
+.timetable_detail_j .title_j{
+	border-top:1px solid #ccc;
+	padding: 15px 0;
+	font-size: 28px;
+	line-height: 32px;
+    height: inherit;
+    overflow: inherit;
+}
+.timetable_detail_j .timeheader_j{
+	border: none;
+	padding: 3vw 5vw 4vw;
+}
+.timetable_detail_j .timeheader_j .w3-col{
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+
+.timetable_detail_j .webedit_j{
+	padding: 15px;
+	margin: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+
+.timetable_down_j .timetable_r_info_j{
+	margin-bottom: 30px;
+}
+.timetable_down_j .timetable_r_info_j .w3-col{
+	padding: 15px;
+}
+.timetable_down_j .timetable_r_info_j a:hover{
+	text-decoration: underline;
+}

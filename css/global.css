@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body{
+	font-family:"微軟正黑體" !important;
+}
+ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	
+	transition:all 1s;
+}
+a:hover{
+	color:inherit;
+}
+.cl_j{
+	clear:both;
+}
+
+
+table{
+    border-collapse:collapse;
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+}
+
+.padding0_j{
+	padding: 0 !important;
+}
+.main_w75{
+	width:75%;
+	margin:0 auto;
+}
+.main_w60{
+	width:60%;
+	margin:0 auto;
+}
+.padding_top64_j{
+	padding-top:64px;
+}
+
+.hr_block_j{border-bottom:1px solid #000;}
+.hr_dot_j{
+	background:url('../images/dot.png') repeat-x;
+	height:15px;
+	background-size:11px;
+	position:relative;
+	z-index:2;
+}
+.hrright_dot_j{
+	background:url('../images/dot.png') repeat-y center;
+	height:600px;
+	background-size:11px;
+	position:relative;
+	z-index:2;
+}
+
+
+/* 改變w3 */
+.w3-btn{
+	padding:8px 25px;
+
+}
+.w3-modal{
+	display:block;
+	top:-300rem;
+	z-index:1000;
+}
+.w3-padding-94{padding-top:94px!important;padding-bottom:64px!important}
+.w3-animate-opacity3{
+	-webkit-animation:opac 3s;
+	-moz-animation:opac 3s;
+	-ms-animation:opac 3s;
+	-o-animation:opac 3s;
+	animation:opac 3s;
+}
+@-webkit-keyframes opac{
+	from{opacity:0}
+	to{opacity:1}
+}
+@-moz-keyframes opac{
+	from{opacity:0}
+	to{opacity:1}
+}
+@-ms-keyframes opac{
+	from{opacity:0}
+	to{opacity:1}
+}
+@-o-keyframes opac{
+	from{opacity:0}
+	to{opacity:1}
+}
+@keyframes opac{
+	from{opacity:0}
+	to{opacity:1}
+}
+.w3-btn:hover{transition:all 1s;}
+.w3-btn:hover{box-shadow:none; border:1px solid #000 !important; color:#000 !important;}
+
+
+/* 顯示隱藏 */
+.pc600upnono_j,
+.pc800upnono_j,
+.pc980upnono_j{
+	display:none;
+}
+@media only screen and (max-width: 1024px){
+	.main_w60{
+		width:90%;
+	}
+}
+@media only screen and (max-width: 980px){
+	.pc980upnono_j{
+		display:inline;
+	}
+	.pc980downnono_j{
+		display:none;
+	}
+	.padding_top64_j {
+		padding-top: 44px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.pc800upnono_j{
+		display:inline;
+	}
+	.pc800downnono_j{
+		display:none;
+	}
+}
+@media only screen and (max-width: 600px){
+	.pc600upnono_j{
+		display:inline;
+	}
+	.pc600downnono_j{
+		display:none;
+	}
+	.main_w60{
+		width:98%;
+	}
+}
+@media only screen and (max-width: 350px){
+	.pc350downnono_j{
+		display:none;
+	}
+}
