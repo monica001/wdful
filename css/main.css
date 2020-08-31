@@ -582,3 +582,37 @@
 .timetable_down_j .timetable_r_info_j a:hover{
 	text-decoration: underline;
 }
+
+
+/*20200829新增 數位典藏頁面*/
+.timetable_r_j .timeheader_d {
+    background: #8a00a4;
+    font-size: 18px;
+    color: white;
+    padding: 15px 15px;
+    font-weight: 800;
+    border: 1px solid  #8a00a45c;
+  /*   border-radius: 6px 6px 0 0 ; */
+ }
+
+.timetable_r_j .box_d {
+    margin-bottom: 25px;
+    padding: 15px 15px 30px 15px;
+}
+
+.timetable_r_j .timetable_r_info_d {
+    border: 1px solid #8a00a45c;
+    padding: 15px;
+ /*    border-radius: 0 0 6px 6px; */
+}
+
+@media only screen and (max-width: 980px){
+	.timetable_r_info_d .timepic_j img {
+    	height: 45vw;
+	}
+}
+@media only screen and (max-width: 600px){
+	.timetable_r_info_d .timepic_j img {
+    	height: auto;
+    }
+}
